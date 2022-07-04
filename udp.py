@@ -33,7 +33,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Sending some Ghost to Target")
+			print(" Sending some Ghost to Target")
 		except:
 			s.close()
 			print("[*] Target now has been died please check that ip.")
